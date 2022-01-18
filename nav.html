@@ -1,0 +1,151 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand flash w2wblink" href="/Wish2Watch/index.html">Wish2Watch</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/Wish2Watch/index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Movies
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/Wish2Watch/hollywood.html">Hollywood</a></li>
+            <li><a class="dropdown-item" href="/Wish2Watch/bollywood.html">Bollywood</a></li>
+            <li><a class="dropdown-item" href="/Wish2Watch/tollywood.html">Tollywood</a></li>
+            <li><a class="dropdown-item" href="/Wish2Watch/animated.html">Animated</a></li>
+            <li><a class="dropdown-item" href="/Wish2Watch/dubbed.html">Dubbed</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navtxt active" href="/Wish2Watch/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navtxt active" href="/Wish2Watch/contact.html">Contact Us</a>
+        </li>
+
+        
+        </ul>          
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <div class="mx-2">
+
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#wishes">Wish2Watch</button>
+        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#register">Register</button>
+
+      </div>
+
+
+    </div>
+  </div>
+</nav>
+
+<!--Login Modal -->
+<div class="modal fade" id="wishes" data-bs-backdrop="static" tabindex="-1" aria-labelledby="Login" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Wish Your Movie to Us..</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Your Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Your City</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Movie's Name You Wish</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Expected Size</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div id="safetymessage" class="form-text">We Promise Not to Share Your Personal Information Ever...</div>
+          
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Wish to Us</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Sing-Up Modal -->
+<div class="modal fade" id="register" tabindex="-1" aria-labelledby="Sing-Up" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register with Wish2Watch</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+            
+          <div id="emailHelp" class="form-text">Register Soon to get Our Primium Services..</div>    
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Your Name</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Your City</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Your Age</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Gender</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div id="emailHelp" class="form-text">We Promise Not to Share Your Private Information Ever...</div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
